@@ -1,6 +1,7 @@
 # ANALISE-DE-DADOS-CURSO-ASIMOV
 Python analise de dados
 
+````py
 caminho_dados = 'C:\\ARQUIVOS\\asimov\\Conteeudo\\2023_Viagem.csv'
 caminho_saida_tabela = 'C:\\ARQUIVOS\\asimov\\Conteeudo\\tabela_2023.xlsx'
 caminho_saida_grafico = 'C:\\ARQUIVOS\\asimov\\Conteeudo\\grafico_2023.png'
@@ -73,3 +74,5 @@ plt.xlabel('Despesa média')
 
 #salvando o grafico
 plt.savefig(caminho_saida_grafico, bbox_inches='tight')
+
+````
